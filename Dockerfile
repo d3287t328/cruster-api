@@ -1,5 +1,5 @@
 # Build the manager binary
-FROM golang:1.20 as builder
+FROM cgr.dev/chainguard/go:latest-dev as builder
 
 WORKDIR /workspace
 # Copy the Go Modules manifests
